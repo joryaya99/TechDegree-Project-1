@@ -16,7 +16,7 @@ while True:
 	if guess > 10:
 		print("Can't be over 10")
 		continue
-	if user_guess < 1:
+	if guess < 1:
 		print("Can't be under 1")
 		continue
   if guess > number:
