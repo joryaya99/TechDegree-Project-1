@@ -30,7 +30,7 @@ def start_game():
             print("Go higher")
         if guess == number:
             attempts += 1
-            print("You got it, it took you {} guesses".format(attempts))
+            print("You got it, it took you {} guesses! Thanks for playing!".format(attempts))
             player_score.append(attempts)
             player_score.sort()                                  
             break
